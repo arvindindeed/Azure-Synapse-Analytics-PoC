@@ -13,7 +13,12 @@ depandancies than what can be configured here.
 # How to Run
 
 These commands should be executed from the Azure Cloud Shell at https://shell.azure.com using <b>PowerShell</b>:
+
+- <b>Note :</b> Please change the subscription name to the required one under your tenant to get the resources & artifacts created in it.
+
+
 ```
+az account set --subscription "<your subscription name>"
 rm -rf Azure-Synapse-Analytics-PoC
 git clone https://github.com/tonio-lora/Azure-Synapse-Analytics-PoC  
 cd Azure-Synapse-Analytics-PoC  
